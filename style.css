@@ -1,9 +1,18 @@
+/* style attribute, ids, classes, elements  */
+/* 0 0 0 0 */
+
 .t-title {
     color: green;
 }
 
 /* This is an example of targetting multiple child elements within a div class for styling. */
+/* 0 0 1 1 */
 .t-title h2,
 .t-title h3 {
     color: blue;
+}
+
+/* 0 0 0 1 */
+h1 {
+    color: red;
 }
