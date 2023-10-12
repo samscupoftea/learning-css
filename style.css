@@ -1,7 +1,7 @@
 /* style attribute, ids, classes, elements  */
 /* 0 1 0 0 */
 #t-title {
-    color: aqua
+    color: green;
 }
 
 .t-title {
@@ -19,8 +19,18 @@
 /* 0 0 0 1 */
 h1 {
     color: red;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+    text-transform: capitalize;
 }
 
 ul li ol li ul li ol li ul li h1 {
     color: purple;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
