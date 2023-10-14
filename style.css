@@ -17,6 +17,11 @@
 } */
 
 /* 0 0 0 1 */
+
+* {
+    margin: 20;
+}
+
 h1 {
     color: red;
     font-size: 38px;
@@ -37,4 +42,6 @@ p {
     font-size: 22px;
     letter-spacing: 2px;
     text-align: justify;
+    max-width: 60ch;
+
 }
