@@ -18,7 +18,10 @@
 
 /* 0 0 0 1 */
 
-* {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 20;
 }
 
@@ -64,6 +67,7 @@ button {
     padding: 16px;
     margin: 30px;
     border: 12px double orange;
+    box-sizing: border-box;
 
 
 }
